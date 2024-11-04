@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Produtos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Produtos</h1>
+  </header>
+
+  <section id="products-container">
+    <!-- Os produtos serão carregados aqui com JavaScript -->
+  </section>
+
+  <div id="cart-container">
+    <h2>Carrinho de Compras</h2>
+    <div id="cart-items"></div>
+    <div id="cart-summary">
+      <p>Subtotal: <span id="subtotal">R$0,00</span></p>
+      <p>Total: <span id="total">R$0,00</span></p>
+    </div>
+    <button onclick="clearCart()">Limpar Carrinho</button>
+    <button onclick="placeOrder()">Fazer Pedido</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
